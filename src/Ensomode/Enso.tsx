@@ -17,7 +17,7 @@ export const Enso = () => {
         <div className="card-body items-center">
           <div className="flex">
             <h2 className="font-kosugi text-3xl text-center card-title ml-14">
-              エンソニキ
+              エンソくん
             </h2>
             <div className="-my-7 pt-1">
               <Lottie

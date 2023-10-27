@@ -28,7 +28,7 @@ export default function Result(props: Props) {
         >
           <div
             style={{ width: "50vw", height: "72vh", overflow: "auto" }}
-            className="bg-white rounded-md border border-gray-400 border-b-4 border-r-4 mt-32"
+            className="bg-white rounded-md border border-gray-400 border-b-4 border-r-4 mt-40"
           >
             <div className="font-kosugi text-xl flex justify-between items-center h-9">
               <div className="flex-1 text-center pt-10 ml-32 text-4xl">
