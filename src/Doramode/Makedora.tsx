@@ -1,10 +1,10 @@
 import Sample from "./Sample";
 import { useState, useEffect } from "react";
 import makeInit from "../MakeInit";
-import crossOver from "../CrossOver";
-import selectGoodSol from "../selectGoodSol";
+import crossOver from "./CrossOver";
+import selectGoodSol from "./selectGoodSol";
 import makeComp from "../MakeComp";
-import calFittness from "../calFittness";
+import calFittness from "./calFittness";
 import empty from "./Empty";
 import full from "./Full";
 import Lottie from "lottie-react";

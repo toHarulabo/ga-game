@@ -25,7 +25,7 @@ export default function Sample(props: Props) {
                   : "opacity-70"
               }
             >
-              <div className="font-kosugi">みほんのピカチュウ</div>
+              <div className="font-kosugi">みほんの黄ねずみ</div>
             </div>
           </Tab>
           {iteration > 0 && (
@@ -37,7 +37,7 @@ export default function Sample(props: Props) {
                     : "opacity-70"
                 }
               >
-                <div className="font-kosugi">あなたのつくったピカチュウ</div>
+                <div className="font-kosugi">あなたのつくった黄ねずみ</div>
               </div>
             </Tab>
           )}

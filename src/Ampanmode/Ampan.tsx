@@ -17,7 +17,7 @@ export const Ampan = () => {
         <div className="card-body items-center">
           <div className="flex">
             <h2 className="font-kosugi text-3xl text-center card-title">
-              アンパンマン
+              アンパン
             </h2>
             <div className="-my-2 ml-1">
               <Lottie

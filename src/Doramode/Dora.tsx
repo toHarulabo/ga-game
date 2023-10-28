@@ -17,7 +17,7 @@ export const Dora = () => {
         <div className="card-body items-center">
           <div className="flex">
             <h2 className="font-kosugi text-3xl text-center card-title ml-10">
-              ドラえもん
+              猫ロボット
             </h2>
             <div className="-my-10 -ml-5">
               <Lottie

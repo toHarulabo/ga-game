@@ -13,6 +13,13 @@ import { Makekirby } from "./Kirbymode/Makekirby";
 import { Makeampan } from "./Ampanmode/Makeampan";
 import { Makepom } from "./Pommode/Makepom";
 import { Inst } from "./Inst";
+import { Makehari } from "./Harimode/Makehari";
+import { CopyrightFree } from "./CopyrightFree";
+import { Makekabocha } from "./Kabochamode/Makekabocha";
+import { Makepengin } from "./Penginmode/Makepengin";
+import { Makesuika } from "./Suikamode/Makesuika";
+import { Makehitachi } from "./Hitachimode/Makehitachi";
+import { InstFree } from "./InstFree";
 
 export const App = () => {
   const pageVariants = {
@@ -49,6 +56,21 @@ export const App = () => {
               </motion.div>
             }
           />
+
+          <Route
+            path="/CopyrightFree/InstFree"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <InstFree />
+              </motion.div>
+            }
+          />
+
           <Route
             path="/Makepika"
             element={
@@ -156,6 +178,76 @@ export const App = () => {
               </motion.div>
             }
           />
+
+          <Route
+            path="/Makehari"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <Makehari />
+              </motion.div>
+            }
+          />
+
+          <Route
+            path="/Makekabocha"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <Makekabocha />
+              </motion.div>
+            }
+          />
+          <Route
+            path="/Makepengin"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <Makepengin />
+              </motion.div>
+            }
+          />
+
+          <Route
+            path="/Makesuika"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <Makesuika />
+              </motion.div>
+            }
+          />
+
+          <Route
+            path="/Makehitachi"
+            element={
+              <motion.div
+                initial="initial"
+                animate="in"
+                exit="out"
+                variants={pageVariants}
+              >
+                <Makehitachi />
+              </motion.div>
+            }
+          />
+          <Route path="/CopyrightFree" element={<CopyrightFree />} />
         </Routes>
       </BrowserRouter>
     </>

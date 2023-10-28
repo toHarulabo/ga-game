@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Confetti from "react-confetti";
 import { motion } from "framer-motion";
 import Sample from "./Sample";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
   bestValue: number;
@@ -11,6 +12,7 @@ type Props = {
 
 export default function Result(props: Props) {
   const { bestValue, iteration, bestSolComp } = props;
+  let navigate = useNavigate();
   return (
     <>
       <div className="absolute top-0 z-40">
@@ -34,11 +36,12 @@ export default function Result(props: Props) {
               <div className="flex-1 text-center pt-10 ml-32 text-4xl">
                 スコア
               </div>
-              <Link to="/">
-                <button className="rounded-full font-kosugi btn text-xl mt-8 mr-8">
-                  Homeに移動
-                </button>
-              </Link>
+              <button
+                className="rounded-full font-kosugi btn text-xl mt-8 mr-8"
+                onClick={() => navigate(-1)}
+              >
+                Homeに移動
+              </button>
             </div>
 
             <div className="font-nosifer text-center py-10 text-9xl text-green-500">

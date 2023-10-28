@@ -17,7 +17,7 @@ export const Micky = () => {
         <div className="card-body items-center">
           <div className="flex">
             <h2 className="font-kosugi text-3xl text-center card-title">
-              ミッキー
+              ねずみ
             </h2>
             <div className="mt-1 ml-1">
               <Lottie

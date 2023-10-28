@@ -13,7 +13,7 @@ export const Header = () => {
             style={{ width: 120, height: 120 }}
           />
           <div className="font-kosugi btn btn-ghost normal-case text-6xl h-16">
-            <Link to="/">遺伝的アルゴリズムで〇〇を作ろう</Link>
+            <div>遺伝的アルゴリズムで〇〇を作ろう</div>
           </div>
           <Lottie
             animationData={animation_lnvdf1bp}
