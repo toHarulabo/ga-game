@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ga-game/static/css/main.fad7381a.css",
-    "main.js": "/ga-game/static/js/main.d8637ebe.js",
+    "main.js": "/ga-game/static/js/main.e42c66ca.js",
     "index.html": "/ga-game/index.html",
     "main.fad7381a.css.map": "/ga-game/static/css/main.fad7381a.css.map",
-    "main.d8637ebe.js.map": "/ga-game/static/js/main.d8637ebe.js.map"
+    "main.e42c66ca.js.map": "/ga-game/static/js/main.e42c66ca.js.map"
   },
   "entrypoints": [
     "static/css/main.fad7381a.css",
-    "static/js/main.d8637ebe.js"
+    "static/js/main.e42c66ca.js"
   ]
 }
