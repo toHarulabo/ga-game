@@ -43,7 +43,7 @@ export default function Sample(props: Props) {
             </Tab>
           )}
         </TabList>
-
+        https://ga-game.vercel.app/KabochaSample.png
         <TabPanel>
           <img
             className="pt-1 px-4"
