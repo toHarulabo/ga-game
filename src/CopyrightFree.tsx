@@ -17,7 +17,7 @@ export const CopyrightFree = () => {
   return (
     <>
       <div className="flex justify-end">
-        <Link to="./InstFree">
+        <Link to="/ga-game/InstFree">
           <button className="rounded-full font-kosugi btn text-xl mt-8 mr-8">
             せつめいをみる
           </button>

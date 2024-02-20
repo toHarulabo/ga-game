@@ -42,9 +42,9 @@ export const App = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ga-game" element={<Home />} />
           <Route
-            path="/Inst"
+            path="/ga-game/Inst"
             element={
               <motion.div
                 initial="initial"
@@ -58,7 +58,7 @@ export const App = () => {
           />
 
           <Route
-            path="/CopyrightFree/InstFree"
+            path="/ga-game/CopyrightFree/InstFree"
             element={
               <motion.div
                 initial="initial"
@@ -72,7 +72,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makepika"
+            path="/ga-game/Makepika"
             element={
               <motion.div
                 initial="initial"
@@ -85,7 +85,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/Makeenso"
+            path="/ga-game/Makeenso"
             element={
               <motion.div
                 initial="initial"
@@ -98,7 +98,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/Makemicky"
+            path="/ga-game/Makemicky"
             element={
               <motion.div
                 initial="initial"
@@ -111,7 +111,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/Makedora"
+            path="/ga-game/Makedora"
             element={
               <motion.div
                 initial="initial"
@@ -124,7 +124,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/Makemario"
+            path="/ga-game/Makemario"
             element={
               <motion.div
                 initial="initial"
@@ -138,7 +138,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makekirby"
+            path="/ga-game/Makekirby"
             element={
               <motion.div
                 initial="initial"
@@ -152,7 +152,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makeampan"
+            path="/ga-game/Makeampan"
             element={
               <motion.div
                 initial="initial"
@@ -166,7 +166,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makepom"
+            path="/ga-game/Makepom"
             element={
               <motion.div
                 initial="initial"
@@ -180,7 +180,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makehari"
+            path="/ga-game/Makehari"
             element={
               <motion.div
                 initial="initial"
@@ -194,7 +194,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makekabocha"
+            path="/ga-game/Makekabocha"
             element={
               <motion.div
                 initial="initial"
@@ -207,7 +207,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/Makepengin"
+            path="/ga-game/Makepengin"
             element={
               <motion.div
                 initial="initial"
@@ -221,7 +221,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makesuika"
+            path="/ga-game/Makesuika"
             element={
               <motion.div
                 initial="initial"
@@ -235,7 +235,7 @@ export const App = () => {
           />
 
           <Route
-            path="/Makehitachi"
+            path="/ga-game/Makehitachi"
             element={
               <motion.div
                 initial="initial"
@@ -247,7 +247,7 @@ export const App = () => {
               </motion.div>
             }
           />
-          <Route path="/CopyrightFree" element={<CopyrightFree />} />
+          <Route path="/ga-game/CopyrightFree" element={<CopyrightFree />} />
         </Routes>
       </BrowserRouter>
     </>

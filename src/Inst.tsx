@@ -60,7 +60,7 @@ export const Inst = () => {
         </SwiperSlide>
       </Swiper>
       <div className="flex justify-center">
-        <Link to="/">
+        <Link to="/ga-game">
           <button className="bg-gray-300 rounded-full font-kosugi btn text-2xl mt-8">
             Homeに移動
           </button>
