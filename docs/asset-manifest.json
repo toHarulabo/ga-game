@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ga-game/static/css/main.fad7381a.css",
+    "main.js": "/ga-game/static/js/main.354ee5dc.js",
+    "index.html": "/ga-game/index.html",
+    "main.fad7381a.css.map": "/ga-game/static/css/main.fad7381a.css.map",
+    "main.354ee5dc.js.map": "/ga-game/static/js/main.354ee5dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad7381a.css",
+    "static/js/main.354ee5dc.js"
+  ]
+}
