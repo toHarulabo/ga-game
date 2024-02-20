@@ -9,10 +9,10 @@ export const Pikachu = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makepika")}
+        onClick={() => navigation("/ga-game/Makepika")}
       >
         <figure>
-          <img src="/PikaSample.png" alt="Pikachu" />
+          <img src="/ga-game/PikaSample.png" alt="Pikachu" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">
