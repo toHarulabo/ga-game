@@ -10,5 +10,7 @@ https://ga-game.vercel.app/CopyrightFree
 
 ## アルゴリズム
 * CrossOver.tsx
+
 ランダムな乱数による交叉
+
 親個体はエリート選択(収束が早い反面，同一の個体が生成されがち)
