@@ -9,10 +9,10 @@ export const Pengin = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makepengin")}
+        onClick={() => navigation("/ga-game/Makepengin")}
       >
         <figure>
-          <img src="/PenginSample.png" alt="Pengin" />
+          <img src="/ga-game/PenginSample.png" alt="Pengin" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

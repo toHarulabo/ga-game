@@ -9,10 +9,10 @@ export const Pom = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makepom")}
+        onClick={() => navigation("/ga-game/Makepom")}
       >
         <figure>
-          <img src="/PomSample.png" alt="pom" />
+          <img src="/ga-game/PomSample.png" alt="pom" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

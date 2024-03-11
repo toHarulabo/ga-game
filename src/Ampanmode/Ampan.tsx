@@ -9,10 +9,10 @@ export const Ampan = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makeampan")}
+        onClick={() => navigation("/ga-game/Makeampan")}
       >
         <figure>
-          <img src="/AmpanSample.png" alt="Ampan" />
+          <img src="/ga-game/AmpanSample.png" alt="Ampan" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

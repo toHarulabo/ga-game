@@ -49,7 +49,7 @@ export default function Sample(props: Props) {
             className="pt-1 px-4"
             width={430}
             height={430}
-            src="/HariSample.png"
+            src="/ga-game/HariSample.png"
             alt="Hari"
           />
         </TabPanel>

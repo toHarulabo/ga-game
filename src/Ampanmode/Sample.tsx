@@ -48,7 +48,7 @@ export default function Sample(props: Props) {
             className="pt-1 px-4"
             width={430}
             height={430}
-            src="/AmpanSample.png"
+            src="/ga-game/AmpanSample.png"
             alt="Ampan"
           />
         </TabPanel>

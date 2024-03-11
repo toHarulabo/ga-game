@@ -9,10 +9,10 @@ export const Hitachi = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makehitachi")}
+        onClick={() => navigation("/ga-game/Makehitachi")}
       >
         <figure>
-          <img src="/HitachiSample.png" alt="Hitachi" />
+          <img src="/ga-game/HitachiSample.png" alt="Hitachi" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

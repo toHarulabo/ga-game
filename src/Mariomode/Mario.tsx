@@ -9,10 +9,10 @@ export const Mario = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makemario")}
+        onClick={() => navigation("/ga-game/Makemario")}
       >
         <figure>
-          <img src="/MarioSample.png" alt="Mario" />
+          <img src="/ga-game/MarioSample.png" alt="Mario" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

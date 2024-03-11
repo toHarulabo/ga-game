@@ -9,10 +9,10 @@ export const Dora = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makedora")}
+        onClick={() => navigation("/ga-game/Makedora")}
       >
         <figure>
-          <img src="/DoraSample.png" alt="Dora" />
+          <img src="/ga-game/DoraSample.png" alt="Dora" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

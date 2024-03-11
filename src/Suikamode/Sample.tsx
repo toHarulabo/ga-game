@@ -52,7 +52,7 @@ export default function Sample(props: Props) {
             className="pt-1 px-4"
             width={430}
             height={430}
-            src="/SuikaSample.png"
+            src="/ga-game/SuikaSample.png"
             alt="Suika"
           />
         </TabPanel>

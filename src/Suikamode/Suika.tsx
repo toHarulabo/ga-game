@@ -9,10 +9,10 @@ export const Suika = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makesuika")}
+        onClick={() => navigation("/ga-game/Makesuika")}
       >
         <figure>
-          <img src="/SuikaSample.png" alt="Suika" />
+          <img src="/ga-game/SuikaSample.png" alt="Suika" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

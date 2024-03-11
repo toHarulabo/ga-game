@@ -53,7 +53,7 @@ export default function Sample(props: Props) {
             className="pt-1 px-4"
             width={430}
             height={430}
-            src="/HitachiSample.png"
+            src="/ga-game/HitachiSample.png"
             alt="Hitachi"
           />
         </TabPanel>

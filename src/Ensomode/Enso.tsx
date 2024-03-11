@@ -9,10 +9,10 @@ export const Enso = () => {
     <>
       <div
         className="card w-96 bg-base-100 shadow-xl hover:brightness-90 cursor-pointer"
-        onClick={() => navigation("/Makeenso")}
+        onClick={() => navigation("/ga-game/Makeenso")}
       >
         <figure>
-          <img src="/EnsoSample.png" alt="Enso" />
+          <img src="/ga-game/EnsoSample.png" alt="Enso" />
         </figure>
         <div className="card-body items-center">
           <div className="flex">

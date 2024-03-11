@@ -48,8 +48,8 @@ export default function Sample(props: Props) {
             className="pt-1 px-4"
             width={430}
             height={430}
-            src="/PikaSample.png"
-            alt="Enso"
+            src="/ga-game/PikaSample.png"
+            alt="Pika"
           />
         </TabPanel>
         {iteration > 0 && (
